@@ -1,0 +1,40 @@
+<xml version="1.0">
+<dashboard>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="0" y="-1"/>
+		<width>518</width>
+		<height>416</height>
+	</static-widget>
+	<widget field=" TankDrive " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="535" y="5"/>
+		<width>126</width>
+		<height>34</height>
+	</widget>
+	<widget field=" SpeedShooter find me" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="770" y="10"/>
+	</widget>
+	<widget field="Auto Selector" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="8" y="735"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="1434" y="707"/>
+		<width>153</width>
+		<property name="Text" value="Connection Status"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="1487" y="731"/>
+		<width>50</width>
+		<height>42</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="1082" y="0"/>
+		<width>916</width>
+		<height>624</height>
+		<property name="Camera Choice" value="USB Camera 0"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="SpeedShooter find me"/>
+	<hidden field="DriveTrain State"/>
+</xml>
