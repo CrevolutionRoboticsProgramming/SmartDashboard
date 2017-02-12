@@ -1,0 +1,184 @@
+<xml version="1.0">
+<dashboard>
+<<<<<<< HEAD
+	<widget field=" FuelShooter Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1315" y="630"/>
+		<height>25</height>
+	</widget>
+	<widget field=" SpeedShooter: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.ProgressBar">
+		<location x="859" y="148"/>
+	</widget>
+	<widget field="Robot Configuration" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1038" y="49"/>
+	</widget>
+	<widget field="Roller Speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="628" y="320"/>
+	</widget>
+	<widget field=" LeftMotor Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="639" y="85"/>
+	</widget>
+	<widget field=" Debug: " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1104" y="5"/>
+		<width>108</width>
+		<height>41</height>
+	</widget>
+	<widget field=" Total Runtime: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="852" y="4"/>
+		<width>138</width>
+		<property name="Background" value="204.255.255.255"/>
+		<property name="Font Size" value="20"/>
+	</widget>
+	<widget field=" TankDrive: " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="882" y="82"/>
+		<width>99</width>
+		<height>48</height>
+	</widget>
+	<widget field=" RightMotor Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1031" y="83"/>
+		<height>20</height>
+	</widget>
+	<widget field=" RightMotor Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1030" y="106"/>
+		<height>20</height>
+	</widget>
+	<widget field=" LeftMotor Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="638" y="107"/>
+		<height>20</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="616" y="5"/>
+=======
+	<widget field=" TankDrive: " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="802"/>
+	</widget>
+	<widget field=" Debug: " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="781"/>
+	</widget>
+	<widget field=" SpeedShooter: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="760"/>
+	</widget>
+	<widget field=" RightMotor Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="739"/>
+	</widget>
+	<widget field=" LeftMotor Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="718"/>
+	</widget>
+	<widget field=" RightMotor Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="697"/>
+	</widget>
+	<widget field=" LeftMotor Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="676"/>
+	</widget>
+	<widget field=" Total Runtime: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="655"/>
+	</widget>
+	<widget field="Distance From Boiler" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="634"/>
+	</widget>
+	<widget field="RightMotor Voltage" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="611"/>
+	</widget>
+	<widget field="LeftMotor Voltage" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="588"/>
+	</widget>
+	<widget field="RightMotor Current" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="565"/>
+	</widget>
+	<widget field="LeftMotor Current" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="542"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="0" y="0"/>
+		<width>722</width>
+		<height>541</height>
+		<property name="Camera Choice" value=""/>
+	</static-widget>
+	<widget field="Timer value " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="773" y="74"/>
+		<height>20</height>
+	</widget>
+	<widget field="Auto Modes" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="0" y="416"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="722" y="329"/>
+		<width>466</width>
+		<height>210</height>
+	</static-widget>
+	<widget field=" TankDrive " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="535" y="5"/>
+		<width>126</width>
+		<height>34</height>
+	</widget>
+	<widget field=" SpeedShooter find me" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="723" y="1"/>
+	</widget>
+	<widget field="Auto Selector" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="764" y="102"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="1038" y="10"/>
+>>>>>>> origin/master
+		<width>153</width>
+		<property name="Text" value="Connection Status"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+<<<<<<< HEAD
+		<location x="669" y="24"/>
+		<width>50</width>
+		<height>42</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="0" y="1"/>
+		<width>623</width>
+		<height>509</height>
+		<property name="Camera Choice" value="USB Camera 0"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="1220" y="7"/>
+		<width>742</width>
+		<height>497</height>
+		<property name="Camera Choice" value="USB Camera 0"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="4" y="534"/>
+		<width>518</width>
+		<height>411</height>
+	</static-widget>
+	<widget field="Robot Configuration: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="11" y="23"/>
+	</widget>
+	<widget field="Auto Selector" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="9" y="15"/>
+	</widget>
+	<widget field=" FuelShooter Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.LinePlot">
+		<location x="1515" y="514"/>
+=======
+		<location x="1069" y="28"/>
+		<width>94</width>
+		<height>40</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="1187" y="-3"/>
+		<width>733</width>
+		<height>543</height>
+		<property name="Camera Choice" value="Rectangle"/>
+	</static-widget>
+	<widget field="Roller Speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="771" y="48"/>
+		<height>20</height>
+	</widget>
+	<widget field="left encoder value" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="743" y="24"/>
+	</widget>
+	<widget field="SpeedShooter find me" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="26" y="31"/>
+	</widget>
+	<widget field="Roller Voltage" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="31" y="0"/>
+>>>>>>> origin/master
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
