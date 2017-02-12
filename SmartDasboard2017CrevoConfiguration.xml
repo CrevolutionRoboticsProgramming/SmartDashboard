@@ -1,0 +1,83 @@
+<xml version="1.0">
+<dashboard>
+	<widget field=" RightMotor Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="1018" y="93"/>
+		<property name="Background" value="0.204.51.255"/>
+	</widget>
+	<widget field=" RightMotor Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="1018" y="70"/>
+		<property name="Background" value="0.204.51.255"/>
+	</widget>
+	<widget field=" LeftMotor Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="693" y="98"/>
+		<property name="Background" value="0.204.255.255"/>
+	</widget>
+	<widget field=" LeftMotor Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="693" y="74"/>
+		<property name="Background" value="0.204.255.255"/>
+	</widget>
+	<widget field=" FuelShooter Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="629" y="444"/>
+		<property name="Font Size" value="20"/>
+	</widget>
+	<widget field=" FuelShooter Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.LinePlot">
+		<location x="554" y="479"/>
+	</widget>
+	<widget field=" SpeedShooter: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.ProgressBar">
+		<location x="881" y="136"/>
+		<property name="Foreground" value="102.255.102.255"/>
+	</widget>
+	<widget field=" TankDrive: " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="910" y="73"/>
+		<width>99</width>
+		<height>43</height>
+	</widget>
+	<widget field="Robot Configuration: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="966" y="4"/>
+		<property name="Background" value="255.255.51.255"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="615" y="14"/>
+		<property name="Text" value="Connection Status"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="0" y="413"/>
+		<width>552</width>
+		<height>364</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="613" y="2"/>
+		<width>93</width>
+		<height>43</height>
+	</static-widget>
+	<widget field=" Total Runtime: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="715" y="1"/>
+		<width>135</width>
+		<height>62</height>
+		<property name="Background" value="255.204.204.255"/>
+		<property name="Font Size" value="25"/>
+	</widget>
+	<widget field=" Debug: " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1288" y="2"/>
+		<width>86</width>
+		<height>41</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="-47" y="-1"/>
+		<width>648</width>
+		<height>413</height>
+		<property name="Camera Choice" value=""/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.MjpgStreamViewerImpl">
+		<location x="1389" y="-1"/>
+		<width>538</width>
+		<height>409</height>
+		<property name="MJPG Server URL" value="http://roborio-2851-FRC.local:1181/?action=stream"/>
+	</static-widget>
+	<widget field="Roller Speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="880" y="176"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
