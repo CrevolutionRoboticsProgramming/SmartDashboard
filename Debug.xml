@@ -1,0 +1,162 @@
+<xml version="1.0">
+<dashboard>
+	<widget field=" Gyro Angle : " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.Compass">
+		<location x="297" y="533"/>
+	</widget>
+	<widget field=" Agitator Timer :" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="626"/>
+	</widget>
+	<widget field=" fuelShooter Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="595" y="552"/>
+		<property name="Background" value="255.102.102.255"/>
+	</widget>
+	<widget field=" Agitator Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="612" y="510"/>
+		<property name="Background" value="255.102.102.255"/>
+	</widget>
+	<widget field=" Agitator Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="611" y="531"/>
+		<property name="Background" value="255.102.102.255"/>
+	</widget>
+	<widget field=" Left Side Encoder Count: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="308" y="491"/>
+		<property name="Background" value="255.102.102.255"/>
+	</widget>
+	<widget field=" LeftMotor Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="337" y="470"/>
+		<property name="Background" value="255.102.102.255"/>
+	</widget>
+	<widget field=" LeftMotor Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="338" y="449"/>
+		<property name="Background" value="255.102.102.255"/>
+	</widget>
+	<widget field=" Right Side Encoder Count: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="568" y="489"/>
+		<property name="Background" value="255.102.102.255"/>
+	</widget>
+	<widget field=" RightMotor Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="597" y="468"/>
+		<property name="Background" value="255.102.102.255"/>
+	</widget>
+	<widget field=" RightMotor Voltage: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="598" y="447"/>
+		<property name="Background" value="255.102.102.255"/>
+	</widget>
+	<widget field="Left Rear CANTalon ID: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="24" y="492"/>
+	</widget>
+	<widget field="Left Front CANTalon ID: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="21" y="470"/>
+	</widget>
+	<widget field="Fuel Shooter CANTalon1 ID: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="2" y="449"/>
+	</widget>
+	<widget field=" Total Runtime: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="123" y="10"/>
+	</widget>
+	<widget field=" fuelShooter Current: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.LinePlot">
+		<location x="810" y="527"/>
+		<width>1109</width>
+		<height>477</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="-2" y="394"/>
+		<width>462</width>
+		<height>51</height>
+		<property name="Text" value="Connection Status"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="-2" y="395"/>
+		<width>462</width>
+		<height>50</height>
+	</static-widget>
+	<widget field=" fuelShooter Shooter Speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.LinePlot">
+		<location x="811" y="-3"/>
+		<width>1107</width>
+		<height>529</height>
+	</widget>
+	<widget field=" Alignment : " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="16" y="670"/>
+	</widget>
+	<widget field=" fuelShooter Mode" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="-15" y="695"/>
+	</widget>
+	<widget field="Hanger CANTalon ID: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="34" y="560"/>
+		<width>192</width>
+		<height>20</height>
+	</widget>
+	<widget field="Right Rear CANTalon ID: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="17" y="537"/>
+		<width>208</width>
+	</widget>
+	<widget field=" Align to boiler " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="31" y="863"/>
+		<width>190</width>
+		<height>20</height>
+	</widget>
+	<widget field=" fuelShooter Error:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="38" y="906"/>
+	</widget>
+	<widget field=" Debug: " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="969"/>
+	</widget>
+	<widget field=" fuelShooter Encoder Position: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="495" y="777"/>
+	</widget>
+	<widget field=" ReverseDirection " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="-2" y="830"/>
+	</widget>
+	<widget field="shooter OMAR  RPM " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="5" y="798"/>
+	</widget>
+	<widget field="Right Front CANTalon ID: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="15" y="514"/>
+		<width>211</width>
+	</widget>
+	<widget field="IntergralError" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="717"/>
+	</widget>
+	<widget field=" fuelShooter encoder Postion" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="504" y="757"/>
+	</widget>
+	<widget field=" Reached Set RPM " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="-18" y="742"/>
+	</widget>
+	<widget field="In-take CANTalon ID: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="34" y="605"/>
+	</widget>
+	<widget field="Roller Speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="14" y="766"/>
+	</widget>
+	<widget field="Agitator CANTalon ID: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="31" y="583"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="461" y="-1"/>
+		<width>348</width>
+		<height>446</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="0" y="14"/>
+		<width>461</width>
+		<height>95</height>
+		<property name="Text" value="Vision Processing Camera"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="-1" y="1"/>
+		<width>461</width>
+		<height>443</height>
+		<property name="Camera Choice" value="USB Camera 0"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="Robot Configuration: "/>
+	<hidden field=" Agitator Enabled "/>
+	<hidden field=" fuelShooter2 Current: "/>
+	<hidden field="Fuel Shooter CANTalon2 ID: "/>
+	<hidden field=" fuelShooter RPM: "/>
+	<hidden field=" fuelShooter RPM Graph: "/>
+	<hidden field=" fuelShooter2 Voltage: "/>
+</xml>
